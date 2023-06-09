@@ -1,0 +1,6 @@
+{"time":"2023-06-09T10:35:17+08:00","type":"error","msg":"[0]Driver [RedisCluster] not supported."}
+{"time":"2023-06-09T10:35:17+08:00","type":"error","msg":"[0]Driver [RedisCluster] not supported."}
+{"time":"2023-06-09T10:39:11+08:00","type":"error","msg":"[0]Driver [RedisCluster] not supported."}
+{"time":"2023-06-09T10:39:23+08:00","type":"error","msg":"[0]Driver [RedisCluster] not supported."}
+{"time":"2023-06-09T10:42:44+08:00","type":"error","msg":"[0]Redis::connect(): Argument #2 ($port) must be of type int, string given"}
+{"time":"2023-06-09T10:42:45+08:00","type":"error","msg":"[0]Redis::connect(): Argument #2 ($port) must be of type int, string given"}
