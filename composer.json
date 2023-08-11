@@ -1,0 +1,29 @@
+{
+    "name": "alocms/admin",
+    "description": "alocms管理后台",
+    "type": "project",
+    "license": "MulanPSL-2.0",
+    "authors": [
+        {
+            "name": "aLoNe.Adams.K",
+            "email": "alone@alonetech.com"
+        }
+    ],
+    "require": {
+        "alocms/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php think service:discover",
+            "@php think vendor:publish"
+        ]
+    }
+}
